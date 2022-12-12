@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header,
+h2 {
+  font-family: "Montserrat", sans-serif;
+}
+
+p,
+.link__instagram {
+  font-family: "Open Sans", sans-serif;
+  padding-bottom: 8px;
+}
+
+.header,
+.footer {
+  padding: 20px;
+  background-color: pink;
+  color: rgb(179, 41, 126);
+}
+
+.header__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container {
+  max-width: 1280px;
+  /* width: 100vh; */
+  margin: 0 auto;
+}
+
+.header__title {
+  font-size: 50px;
+}
+
+.header__menu li {
+  display: inline;
+  margin-right: 10px;
+}
+
+.header__link {
+  text-decoration: none;
+  color: rgb(179, 41, 126);
+  font-weight: bold;
+}
+
+.header__link:hover {
+  text-decoration: underline;
+}
+
+.container__sobre,
+.container__mentoria,
+.container__contato,
+.container__pacote,
+.container__info {
+  display: flex;
+  padding-top: 30px;
+  gap: 50px;
+}
+
+.sobre__logo,
+.mentoria__img,
+.contato__img,
+.pacote__img,
+.info__img {
+  max-width: 400px;
+  max-height: 400px;
+  width: auto;
+  height: auto;
+}
+
+.sobre__empresa,
+.sobre__mentoria,
+.sobre__contato,
+.sobre__pacote,
+.sobre__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.empresa__title,
+.mentoria__title,
+.contato__title,
+.pacote__title,
+.info__title {
+  padding-bottom: 10px;
+  font-size: 30px;
+}
+
+.contato__lista {
+  display: inline-flex;
+  gap: 30px;
+  text-align: center;
+  list-style: none;
+}
+
+.lista__img {
+  width: 30px;
+}
+
+.intragram {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.intragram a {
+  text-decoration: none;
+  color: black;
+}
+
+.intragram a:hover {
+  text-decoration: underline;
+}
+
+.footer {
+  margin-top: 20px;
+}
+
+.footer p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
