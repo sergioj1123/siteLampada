@@ -20,6 +20,7 @@ p,
   padding: 20px;
   background-color: pink;
   color: rgb(179, 41, 126);
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 .header__container {
@@ -84,6 +85,7 @@ p,
   height: auto;
   border: rgb(179, 41, 126) double 2.5px;
   border-radius: 15px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 .sobre__empresa,
