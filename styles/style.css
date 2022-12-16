@@ -34,6 +34,16 @@ p,
   margin: 0 auto;
 }
 
+@media screen and (max-width: 900px) {
+  .header,
+  .footer {
+    width: max-content;
+  }
+  .container {
+    width: 100vh;
+  }
+}
+
 .header__title {
   font-size: 50px;
 }
