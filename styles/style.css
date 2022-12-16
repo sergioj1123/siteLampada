@@ -82,6 +82,8 @@ p,
   max-height: 400px;
   width: auto;
   height: auto;
+  border: rgb(179, 41, 126) double 2.5px;
+  border-radius: 15px;
 }
 
 .sobre__empresa,
