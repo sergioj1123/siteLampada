@@ -25,6 +25,7 @@ p,
 
 .header h1 {
   margin: 0;
+  font-weight: 600;
 }
 
 .header__container {
@@ -61,7 +62,7 @@ p,
 .header__link {
   text-decoration: none;
   color: rgb(179, 41, 126);
-  font-weight: bold;
+  font-weight: 600;
 }
 
 .header__link:hover {
@@ -109,6 +110,7 @@ p,
 .info__title {
   padding-bottom: 10px;
   font-size: 30px;
+  font-weight: 500;
 }
 
 .contato__lista {
@@ -143,5 +145,5 @@ p,
 
 .footer p {
   font-family: "Montserrat", sans-serif;
-  font-weight: bold;
+  font-weight: 600;
 }
